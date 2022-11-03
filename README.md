@@ -5,14 +5,11 @@
 
  I wrote this thing in 10min without thinking about possible vulnerabilities, and considering I only have a base knowledge of asymetric encryption this code is probably an insult to Ron Rivest, but hey, how am i to judge.
 
-#
-
 ## Why?
  I have no clue. It's 1am, I'm bored.
 
 ## Yes but why python?
  Yes.
 
-#
-
-> Note: In this algoritm, the AES key and the AES initial vector (256b each) after the encryption (with a 4096b pub key) always weight 512b each. With a 8192b pub. key they whould weight 1024b each and so on.
+<br>
+Note: In this algoritm, the AES key and the AES initial vector (256b each) after the encryption (with a 4096b pub key) always weight 512b each. With a 8192b pub. key they whould weight 1024b each and so on.
